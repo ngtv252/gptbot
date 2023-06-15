@@ -6,6 +6,8 @@
 
 ### Установка:
 
+<code>git clone https://github.com/ngtv252/gptbot.git </code>
+
 Поместите токен телеграм-бота и api-ключ OpenAI в файл config.py
 Установите зависимости командой
 
