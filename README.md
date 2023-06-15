@@ -1,0 +1,2 @@
+# gptbot
+chatgptbot for kwork
