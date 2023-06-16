@@ -49,7 +49,7 @@ def handle(message):
         frequency_penalty=0,
         presence_penalty=0
     )
-    response_text = response.choices[0].text.strip()
+    response_text = response.choices[0].text
 
     chat_history['messages'].append({'user_message': message.text, 'chatgpt_resp': response_text})
     with open(user_json, 'w', encoding='utf-8') as dialog_file:
