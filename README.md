@@ -12,7 +12,7 @@
 
 <code>git clone https://github.com/ngtv252/gptbot.git</code>
 
-Поместите токен телеграм-бота и api-ключ OpenAI в файл config.py
+Поместите токен телеграм-бота и api-ключ OpenAI в файл config.py. Ркомендуется импорт с использование os.getenv()
 Установите зависимости командой
 
 <code>pip install -r requirements.txt </code>
