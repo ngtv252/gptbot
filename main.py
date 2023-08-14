@@ -62,5 +62,5 @@ def handle(message):
 
     bot.send_message(message.chat.id, f'🤖 <b>ChatGPT:</b>\n {response_text}')
 
-
-bot.polling(none_stop=True)
+if __name__ == "__main__":
+    bot.polling(none_stop=True)
